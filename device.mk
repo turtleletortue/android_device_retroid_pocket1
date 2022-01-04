@@ -146,6 +146,10 @@ DEVICE_PACKAGE_OVERLAYS += device/retroid/pocket2/overlay/aosp
 # MTKRC
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += ro.mtkrc.path=/vendor/etc/init/hw/
 
+# Pocket1 RemovePackages
+PRODUCT_PACKAGES += \
+    RemovePackagesPocket1
+
 # Dalvik/HWUI
 $(call inherit-product, frameworks/native/build/tablet-7in-hdpi-1024-dalvik-heap.mk)
 $(call inherit-product-if-exists, frameworks/native/build/phone-xxhdpi-2048-hwui-memory.mk)
