@@ -7,6 +7,9 @@ $(call inherit-product, vendor/lineage/config/common_mini_tablet_wifionly.mk)
 # Call rp1 device
 $(call inherit-product, device/retroid/pocket1/device.mk)
 
+# Turtle extras
+$(call inherit-product-if-exists, vendor/turtle/pocket1.mk)
+
 # Device branding for AOSP
 PRODUCT_BRAND := google
 PRODUCT_DEVICE := pocket1
