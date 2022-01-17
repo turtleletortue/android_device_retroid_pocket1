@@ -1,0 +1,15 @@
+diff --git a/target/product/core_minimal.mk b/target/product/core_minimal.mk
+index 615d20da25..3e142d7663 100644
+--- a/target/product/core_minimal.mk
++++ b/target/product/core_minimal.mk
+@@ -113,9 +113,6 @@ PRODUCT_BOOT_JARS := \
+     legacy-test \
+     ext \
+     framework \
+-    telephony-common \
+-    voip-common \
+-    ims-common \
+     org.apache.http.legacy.boot \
+     android.hidl.base-V1.0-java \
+     android.hidl.manager-V1.0-java
+
