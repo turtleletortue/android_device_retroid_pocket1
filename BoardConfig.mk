@@ -149,3 +149,6 @@ SELINUX_IGNORE_NEVERALLOWS := true
 # Do not use 64bit binder
 TARGET_USES_64_BIT_BINDER := false
 
+# Security patch level of vendor blobs
+VENDOR_SECURITY_PATCH := 2019-03-05
+
