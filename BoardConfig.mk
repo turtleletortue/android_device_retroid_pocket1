@@ -120,9 +120,6 @@ TARGET_USES_MKE2FS := true
 # System Prop
 TARGET_SYSTEM_PROP += device/retroid/pocket2/system.prop
 
-# Vendor Prop
-TARGET_VENDOR_PROP += device/retroid/pocket2/vendor.prop
-
 # Exfat
 TARGET_EXFAT_DRIVER := exfat
 

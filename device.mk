@@ -24,6 +24,9 @@ $(call inherit-product-if-exists, vendor/turtle/extras/turtle-vendor.mk)
 # Hidl
 include device/retroid/pocket2/hidl.mk
 
+# Include vendor properties
+include device/retroid/pocket2/vendor_prop.mk
+
 # Wifi
 PRODUCT_PACKAGES += \
     libwpa_client \
