@@ -7,4 +7,5 @@ LOCAL_MODULE_CLASS := APPS
 LOCAL_OVERRIDES_PACKAGES := telecom telephony-common voip-common ims-common
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_SRC_FILES := /dev/null
 include $(BUILD_PREBUILT)
